@@ -1,7 +1,11 @@
+import { Text, Input, Button } from "components"
+
 export const Home = () =>{
   return(
     <div>
-     <p>Home</p> 
+     <Text fontWeight="bold"> Tasks </Text>
+     <Input placeholder="Enter a task name  here..." />
+     <Button>OK</Button>
     </div>
   )
 }
