@@ -4,15 +4,16 @@ interface Props {
   children: React.ReactNode;
 }
 
-const fontsSizes: any = [14,20,96]
-fontsSizes.body = fontsSizes[0];
-fontsSizes.bodyExtraLarge = fontsSizes[1];
-fontsSizes.displayExtraLarge = fontsSizes[2];
+const fontSizes: any = [14,18,20,96];
+fontSizes.body = fontSizes[0];
+fontSizes.bodyLarge = fontSizes[1];
+fontSizes.bodyExtraLarge = fontSizes[2];
+fontSizes.displayExtraLarge = fontSizes[3];
 
 const primary = '#256784';
 const secondary = '#F98531';
 const theme = {
-  fontsSizes,
+  fontSizes,
   colors: {
     primary,
     secondary

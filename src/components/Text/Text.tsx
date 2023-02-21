@@ -1,9 +1,10 @@
 import styled from "styled-components"
-import { TypographyProps, typography } from "styled-system"
+import { SpaceProps, TypographyProps, space, typography } from "styled-system"
 
-type TextProps = TypographyProps;
+type TextProps = TypographyProps & SpaceProps;
 export const Text = styled.p<TextProps>`
   font-family: 14px;
   color: #fff;
   ${typography}
+  ${space}
 `
